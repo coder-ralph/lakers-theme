@@ -1,0 +1,58 @@
+{
+    "name": "Los Angeles Lakers Theme",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#552583",
+        "editor.foreground": "#FDB927",
+        "activityBar.background": "#552583",
+        "activityBar.activeBorder": "#FDB927",
+        "activityBar.activeBackground": "#7A3E9D",
+        "sideBar.background": "#552583",
+        "sideBar.foreground": "#FDB927",
+        "sideBarTitle.foreground": "#FDB927",
+        "statusBar.background": "#552583",
+        "statusBar.foreground": "#FDB927",
+        "editorCursor.foreground": "#FDB927",
+        "editorLineNumber.foreground": "#9A76C3",
+        "editorGroupHeader.tabsBackground": "#552583",
+        "tab.activeBorder": "#552583",
+        "terminal.background": "#552583",
+        "terminal.foreground": "#FDB927",
+        "tab.activeBackground": "#7A3E9D",
+        "tab.activeForeground": "#FDB927",
+        "tab.inactiveBackground": "#552583",
+        "tab.inactiveForeground": "#FFFFFF",
+        "titleBar.activeBackground": "#552583",
+        "titleBar.activeForeground": "#FDB927",
+        "titleBar.inactiveBackground": "#7A3E9D",
+        "titleBar.inactiveForeground": "#FFFFFF",
+        "editor.selectionBackground": "#7A3E9D",
+        "editor.lineHighlightBackground": "#FFFFFF10"
+    },
+    "tokenColors": [
+        {
+            "scope": ["comment"],
+            "settings": {
+                "foreground": "#9A76C3"
+            }
+        },
+        {
+            "scope": ["keyword", "storage.type"],
+            "settings": {
+                "foreground": "#FDB927"
+            }
+        },
+        {
+            "scope": ["string"],
+            "settings": {
+                "foreground": "#FDB927"
+            }
+        },
+        {
+            "scope": ["variable", "identifier"],
+            "settings": {
+                "foreground": "#FFFFFF"
+            }
+        }
+    ]
+}

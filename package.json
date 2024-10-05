@@ -1,0 +1,45 @@
+{
+  "name": "lakers-theme",
+  "displayName": "Los Angeles Lakers Theme",
+  "description": "A Los Angeles Lakers inspired VS Code theme",
+  "version": "1.0.0",
+  "publisher": "ralphrosael",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coder-ralph/lakers-theme.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "vscode",
+    "theme",
+    "los angeles lakers",
+    "lakers",
+    "dark theme",
+    "purple",
+    "gold",
+    "lakers theme",
+    "ralphrosael"
+  ],
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Los Angeles Lakers Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lakers-theme.json"
+      }
+    ]
+  },
+  "files": [
+    "README.md",
+    "themes",
+    "themes/*",
+    "package.json",
+    ".vscodeignore"
+  ]
+}

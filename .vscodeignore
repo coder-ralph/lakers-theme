@@ -1,0 +1,8 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+vsc-extension-quickstart.md
+
+# Exclude any local build artifacts
+out/**
+*.vsix
